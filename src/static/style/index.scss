@@ -1,0 +1,17 @@
+
+@import "uview-ui/index.scss";
+
+page {
+    -webkit-overflow-scrolling: touch; // ios滑动不流畅
+    height: 100%;
+    width: 100%;
+    font-family: OPPOSANS;
+    word-break: break-all; //英文文本不换行
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+    display: none;
+}

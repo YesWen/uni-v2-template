@@ -1,0 +1,68 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+		"^w-(.*)": "@/components/w-$1/index.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages/test",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarTitleText": "测试"
+					}
+				}
+			]
+		}
+	],
+	"preloadRule": {},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	}
+	// "tabBar": {
+	// 	"color": "#8B8B8B",
+	// 	"selectedColor": "#2E2E2E",
+	// 	"backgroundColor": "#fff",
+	// 	"borderStyle": "black",
+	// 	"list": [
+	// 		{
+	// 			"iconPath": "/static/tab-img/home.png",
+	// 			"selectedIconPath": "/static/tab-img/s-home.png",
+	// 			"pagePath": "pages/index/index",
+	// 			"text": "首页"
+	// 		},
+	// 		// {
+	// 		// 	"iconPath": "/static/tab-img/shop.png",
+	// 		// 	"selectedIconPath": "/static/tab-img/s-shop.png",
+	// 		// 	"pagePath": "pages/index/index",
+	// 		// 	"text": "购物"
+	// 		// },
+	// 		{
+	// 			"iconPath": "/static/tab-img/cj.png",
+	// 			"selectedIconPath": "/static/tab-img/s-cj.png",
+	// 			"pagePath": "pages/scenarioList/index",
+	// 			"text": "场景"
+	// 		},
+	// 		{
+	// 			"iconPath": "/static/tab-img/center.png",
+	// 			"selectedIconPath": "/static/tab-img/s-center.png",
+	// 			"pagePath": "pages/user/index",
+	// 			"text": "个人中心"
+	// 		}
+	// 	]
+	// }
+}
