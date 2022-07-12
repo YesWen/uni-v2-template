@@ -1,5 +1,5 @@
 <template>
-    <view class="u-flex-col u-row-center u-col-center" :style="{ 'margin-top': marginTop }">
+    <view class="flex flex-col items-center" :style="{ 'margin-top': marginTop }">
         <image class="empty-img" :src="image" mode="widthfix"></image>
         <view class="empty-text u-tips-color u-font-46" style="color: rgb(102, 148, 234);">{{ tipText }}</view>
         <view class="btn-box u-m-t-100" v-if="btnText">
